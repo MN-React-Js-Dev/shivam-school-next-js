@@ -15,7 +15,7 @@ const BecomeTeacher = () => {
                         </div>
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
-                                <h1 class="mb-4">Become A Teacher</h1>
+                                <h1 class="mb-4">Get Admission Today</h1>
                                 <p class="mb-4">Embark on a fulfilling and rewarding career as an educator, shaping the future by joining our esteemed team of dedicated teachers who inspire and empower students to thrive academically, emotionally, and socially.
                                 </p>
                                 <a class="btn btn-primary py-3 px-5" href>Get Started Now<i

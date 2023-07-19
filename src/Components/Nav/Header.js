@@ -65,7 +65,7 @@ const Header = () => {
                             </Link>
                             <Link href="/call-to-action" passHref>
                                 <div className="dropdown-item" legacyBehavior>
-                                    Become A Teacher
+                                    Get Admission Today
                                 </div>
                             </Link>
                             <Link href="/appointment" passHref>
