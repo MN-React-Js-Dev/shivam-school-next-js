@@ -1,10 +1,12 @@
 import React from 'react'
 import HeroImage from '../assets/img/carousel-1.jpg'
 import Image from 'next/image'
+import SchoolImg from '../assets/img/school/53d92d5b-c5b7-425d-a235-72e8a08119b1.png'
+ 
 const HeroSection = () => {
     return <>
-         <div class="container-fluid p-0 mb-5 "  >
-            <Image class="img-fluid" src={HeroImage} />
+        <div class="container-fluid p-0 mb-5 about-img wow fadeInUp" data-wow-delay="0.5s" >
+            <Image class="img-fluid" src={SchoolImg}    />
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative">
                     {/* <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
