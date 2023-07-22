@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 const Header = () => {
     const [flag, setflag] = useState("")
+    const [toogle, setToogle] = useState(false)
+
     useEffect(() => {
         if (window.location.pathname === "/") {
             setflag("/")
@@ -22,6 +24,10 @@ const Header = () => {
 
     }, [])
 
+    const handleToogle = () => {
+        setToogle(!toogle)
+    }
+
     return (
         <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
             <Link href="/" passHref>
@@ -36,10 +42,11 @@ const Header = () => {
                 className="navbar-toggler"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse"
+                onClick={handleToogle}
             >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className={`collapse navbar-collapse ${toogle ? "show" : ""}`} id="navbarCollapse">
                 <div className="navbar-nav mx-auto">
                     <Link href="/" passHref>
                         <div className={`nav-item nav-link ${flag == "/" ? "active" : ""}`} onClick={() => setflag("/")} legacyBehavior>
@@ -106,7 +113,7 @@ const Header = () => {
                         </div>
                     </div>
                     <Link href="/contact" passHref>
-                        <div  className={`nav-item nav-link  ${flag == "/contact" ? "active" : ""}`} onClick={() => setflag("/contact")} legacyBehavior>
+                        <div className={`nav-item nav-link  ${flag == "/contact" ? "active" : ""}`} onClick={() => setflag("/contact")} legacyBehavior>
                             Contact Us
                         </div>
                     </Link>
