@@ -10,7 +10,7 @@ export default function Document() {
       <link rel="preconnect" href="https://fonts.googleapis.com/" />
       <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
 
-      <link rel="shortcut icon" href="/public/favicon.ico" />
+      <link rel="shortcut icon" href="favicon.ico" />
       <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap"
         rel="stylesheet" />
