@@ -1,7 +1,27 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Header = () => {
+    const [flag, setflag] = useState("")
+    useEffect(() => {
+        if (window.location.pathname === "/") {
+            setflag("/")
+        }
+        if (window.location.pathname === "/about") {
+            setflag("/about")
+        }
+        if (window.location.pathname === "/classes") {
+            setflag("/classes")
+        }
+        if (window.location.pathname === "/pages") {
+            setflag("/pages")
+        }
+        if (window.location.pathname === "/contact") {
+            setflag("/contact")
+        }
+
+    }, [])
+
     return (
         <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
             <Link href="/" passHref>
@@ -22,22 +42,22 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav mx-auto">
                     <Link href="/" passHref>
-                             <div className="nav-item nav-link active" legacyBehavior>
-                                Home
-                            </div>
-                     </Link>
-                         <Link href="/about" passHref>
-                            <div className="nav-item nav-link" legacyBehavior>
-                                About Us
-                            </div>
-                     </Link>
+                        <div className={`nav-item nav-link ${flag == "/" ? "active" : ""}`} onClick={() => setflag("/")} legacyBehavior>
+                            Home
+                        </div>
+                    </Link>
+                    <Link href="/about" passHref>
+                        <div className={`nav-item nav-link  ${flag == "/about" ? "active" : ""}`} onClick={() => setflag("/about")} legacyBehavior>
+                            About Us
+                        </div>
+                    </Link>
                     <Link href="/classes" passHref>
-                        <div className="nav-item nav-link" legacyBehavior>
+                        <div className={`nav-item nav-link  ${flag == "/classes" ? "active" : ""}`} onClick={() => setflag("/classes")} legacyBehavior>
                             Classes
                         </div>
                     </Link>
                     <div className="nav-item dropdown">
-                        <Link href="/pages" passHref>
+                        <Link href="/pages" passHref className={`${flag == "/pages" ? "active" : ""}`} onClick={() => setflag("/pages")}>
                             <div
                                 className="nav-link dropdown-toggle"
                                 id="navbarDropdown"
@@ -86,7 +106,7 @@ const Header = () => {
                         </div>
                     </div>
                     <Link href="/contact" passHref>
-                        <div className="nav-item nav-link" legacyBehavior>
+                        <div  className={`nav-item nav-link  ${flag == "/contact" ? "active" : ""}`} onClick={() => setflag("/contact")} legacyBehavior>
                             Contact Us
                         </div>
                     </Link>
