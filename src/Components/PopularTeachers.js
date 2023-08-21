@@ -5,7 +5,7 @@ import Team3Img from '../assets/img/Teachers/team3.jpg'
 import Team4Img from '../assets/img/Teachers/team4.jpg'
 import Team5Img from '../assets/img/Teachers/team5.jpg'
 import Team6Img from '../assets/img/Teachers/team6.jpg'
-import Team7Img from '../assets/img/Teachers/team7.jpg'
+import Team7Img from '../assets/img/Teachers/team8.jpg'
 import Team8Img from '../assets/img/Teachers/team7.jpg'
 import Team9Img from '../assets/img/Teachers/team9.jpg'
 import Team10Img from '../assets/img/Teachers/team10.jpg'
@@ -19,66 +19,83 @@ import Team17Img from '../assets/img/Teachers/team15.jpg'
 
 import Image from 'next/image'
 const PopularTeachers = () => {
-
-    // For example: var Team3Img = 'path/to/image.png';
-
     var teacherArray = [
         {
-            images: TeamImg,
-            name: "Alice"
+            images: Team2Img,
+            name: "Jagdish Chahan",
+            desiganation:"Principal "
         },
+        {
+            images: Team5Img,
+            name: "Daxa.k.Patel",
+            desiganation:"Principal Primary"
+        },
+        {
+            images: TeamImg,
+            name: "Rakesh Faljibhai",
+            desiganation:"Teacher" 
 
+        },
         {
             images: Team3Img,
-            name: "Charlie"
+            name: "RaghuBhai",
+            desiganation:"Teacher" 
+
         },
 
         {
             images: Team14Img,
-            name: "Eva"
+            name: "Minal",
+            desiganation:"Teacher" 
+
         },
         {
             images: Team6Img,
-            name: "Frank"
+            name: "Bhailal",
+            desiganation:"Teacher" 
+
         },
 
         {
             images: Team8Img,
-            name: "Hannah"
-        },
-        {
-            images: Team9Img,
-            name: "Isaac"
+            name: "Jd Dhabhi",
+            desiganation:"Teacher" 
+
         },
         {
             images: Team10Img,
-            name: "Jack"
+            name: "Rakesh",
+            desiganation:"Teacher" 
+
         },
+        
         {
             images: Team11Img,
-            name: "Katie"
+            name: "Rohit",
+            desiganation:"Teacher" 
+
         },
         {
             images: Team12Img,
-            name: "Liam"
+            name: "Anuradha",
+            desiganation:"Teacher" 
         },
-
-        {
-            images: Team5Img,
-            name: "Nathan"
-        },
+       
         {
             images: Team15Img,
-            name: "Olivia"
+            name: "Ajit Rupabhai",
+            desiganation:"Teacher" 
         },
         {
-            images: Team16Img,
-            name: "Peter"
+            images: Team4Img,
+            name: "Jigensh Prajapati",
+            desiganation:"Teacher" 
         },
         {
-            images: Team17Img,
-            name: "Quincy"
-        },
+            images: Team7Img,
+            name: "Kiran Ben",
+            desiganation:"Teacher" 
+        }
     ];
 
 
@@ -99,7 +116,7 @@ const PopularTeachers = () => {
                                         <Image class="img-fluid rounded-circle w-75" src={iteam.images} alt />
                                         <div class="team-text">
                                             <h3>{iteam.name}</h3>
-                                            <p>Designation</p>
+                                            <p>{iteam.desiganation}</p>
                                             <div class="d-flex align-items-center">
                                                 <a class="btn btn-square btn-primary mx-1" href><i
                                                     class="fab fa-facebook-f"></i></a>
