@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroImage from '../assets/img/carousel-1.jpg'
 import Image from 'next/image'
-import SchoolImg from '../assets/img/school/53d92d5b-c5b7-425d-a235-72e8a08119b1.png'
+import SchoolImg from '../assets/img/school/newHero.png'
  
 const HeroSection = () => {
     return <>

@@ -3,9 +3,9 @@ import React from 'react'
 import About1 from '../assets/img/about-1.jpg'
 import About2 from '../assets/img/about-2.jpg'
 import About3 from '../assets/img/about-3.jpg'
-import SchoolImg from '../assets/img/school/53d92d5b-c5b7-425d-a235-72e8a08119b1.png'
-import SchoolImg1 from '../assets/img/school/1445181c-5c59-4fd4-9470-fb92e929cfb8.png'
-import SchoolImg2 from '../assets/img/school/1cdf13e8-fadb-4126-9db7-133c391ecebe.png'
+import SchoolImg from '../assets/img/school/newHero.png'
+// import SchoolImg1 from '../assets/img/school/1445181c-5c59-4fd4-9470-fb92e929cfb8.png'
+// import SchoolImg2 from '../assets/img/school/1cdf13e8-fadb-4126-9db7-133c391ecebe.png'
 import Image from 'next/image'
 
 const AboutSchool = () => {

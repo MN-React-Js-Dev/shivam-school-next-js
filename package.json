@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "homepage": "https://shivamvidhyalay.com",
+  "name": "Shivam Vidhyalay",
   "version": "0.1.0",
   "private": true,
   "scripts": {

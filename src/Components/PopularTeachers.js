@@ -1,21 +1,21 @@
 import React from 'react'
-import TeamImg from '../assets/img/Teachers/003894c5-734f-4cfb-b0ff-a3267928a7cd.png'
-import Team2Img from '../assets/img/Teachers/066e0252-5f5b-4638-bae2-c53307e291db.png'
-import Team3Img from '../assets/img/Teachers/0c00a371-e7ad-45f5-a06f-0f9451a31042.png'
-import Team4Img from '../assets/img/Teachers/191ed4a8-3b4a-4313-b48a-4939a2d0b439.png'
-import Team5Img from '../assets/img/Teachers/3b34cbfd-e73d-4971-bb9a-e8edeffd5d63.png'
-import Team6Img from '../assets/img/Teachers/4cd0d080-baa1-4e23-a637-c48866899692.png'
-import Team7Img from '../assets/img/Teachers/5d7e79af-b46a-42d7-ac4c-ea5136d9503b.png'
-import Team8Img from '../assets/img/Teachers/5d7e79af-b46a-42d7-ac4c-ea5136d9503b.png'
-import Team9Img from '../assets/img/Teachers/6c16f083-8513-4e68-b0b0-93afb4f12a14.png'
-import Team10Img from '../assets/img/Teachers/77755dcc-59c9-47d9-ae5d-f66370caba1c.png'
-import Team11Img from '../assets/img/Teachers/7cb1ad89-8a6a-42e1-b1e2-9ec01a03d4cd.png'
-import Team12Img from '../assets/img/Teachers/825492c6-a59c-49b4-a83d-ff31ba84f368.png'
-import Team13Img from '../assets/img/Teachers/825492c6-a59c-49b4-a83d-ff31ba84f368.png'
-import Team14Img from '../assets/img/Teachers/8c6d3709-a145-4eba-9ed3-1b396917a904.png'
-import Team15Img from '../assets/img/Teachers/98ac428e-8f81-4794-ad42-88c65946bc26.png'
-import Team16Img from '../assets/img/Teachers/a6fbb350-c34f-4aa2-84d0-2c7b198d494e.png'
-import Team17Img from '../assets/img/Teachers/abdea766-a3c6-457b-92bd-fcef60902870.png'
+import TeamImg from '../assets/img/Teachers/team1.jpg'
+import Team2Img from '../assets/img/Teachers/team2.jpg'
+import Team3Img from '../assets/img/Teachers/team3.jpg'
+import Team4Img from '../assets/img/Teachers/team4.jpg'
+import Team5Img from '../assets/img/Teachers/team5.jpg'
+import Team6Img from '../assets/img/Teachers/team6.jpg'
+import Team7Img from '../assets/img/Teachers/team7.jpg'
+import Team8Img from '../assets/img/Teachers/team7.jpg'
+import Team9Img from '../assets/img/Teachers/team9.jpg'
+import Team10Img from '../assets/img/Teachers/team10.jpg'
+import Team11Img from '../assets/img/Teachers/team11.jpg'
+import Team12Img from '../assets/img/Teachers/team12.jpg'
+import Team13Img from '../assets/img/Teachers/team13.jpg'
+import Team14Img from '../assets/img/Teachers/team14.jpg'
+import Team15Img from '../assets/img/Teachers/team15.jpg'
+import Team16Img from '../assets/img/Teachers/team15.jpg'
+import Team17Img from '../assets/img/Teachers/team15.jpg'
 
 import Image from 'next/image'
 const PopularTeachers = () => {
@@ -27,12 +27,12 @@ const PopularTeachers = () => {
             images: TeamImg,
             name: "Alice"
         },
-        
+
         {
             images: Team3Img,
             name: "Charlie"
         },
-       
+
         {
             images: Team14Img,
             name: "Eva"
@@ -41,47 +41,47 @@ const PopularTeachers = () => {
             images: Team6Img,
             name: "Frank"
         },
-        
+
         {
-            images: Team8Img,  
+            images: Team8Img,
             name: "Hannah"
         },
         {
-            images: Team9Img,  
+            images: Team9Img,
             name: "Isaac"
         },
         {
-            images: Team10Img, 
+            images: Team10Img,
             name: "Jack"
         },
         {
-            images: Team11Img, 
+            images: Team11Img,
             name: "Katie"
         },
         {
-            images: Team12Img, 
+            images: Team12Img,
             name: "Liam"
         },
-        
+
         {
-            images: Team5Img, 
+            images: Team5Img,
             name: "Nathan"
         },
         {
-            images: Team15Img, 
+            images: Team15Img,
             name: "Olivia"
         },
         {
-            images: Team16Img, 
+            images: Team16Img,
             name: "Peter"
         },
         {
-            images: Team17Img, 
+            images: Team17Img,
             name: "Quincy"
         },
     ];
 
-  
+
 
     return (
         <>
