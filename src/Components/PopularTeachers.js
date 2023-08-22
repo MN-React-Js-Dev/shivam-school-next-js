@@ -19,7 +19,7 @@ import Team17Img from '../assets/img/Teachers/team17.png'
 import Team18Img from '../assets/img/Teachers/team18.png'
 import Team19Img from '../assets/img/Teachers/team19.png'
 import Team20Img from '../assets/img/Teachers/team20.png'
- 
+
 import Image from 'next/image'
 const PopularTeachers = () => {
     var teacherArray = [
@@ -31,7 +31,7 @@ const PopularTeachers = () => {
         {
             images: Team2Img,
             name: "Jagdish Chahan",
-            desiganation: "Principal "
+            desiganation: "Principal"
         },
         {
             images: Team5Img,
@@ -61,7 +61,7 @@ const PopularTeachers = () => {
             name: "Bhailal",
             desiganation: "Teacher"
         },
-       
+
         {
             images: Team10Img,
             name: "Rakesh",
@@ -121,8 +121,6 @@ const PopularTeachers = () => {
         }
     ];
 
-
-
     return (
         <>
             <div class="container-xxl py-5">
@@ -141,66 +139,19 @@ const PopularTeachers = () => {
                                             <h3>{iteam.name}</h3>
                                             <p>{iteam.desiganation}</p>
                                             <div class="d-flex align-items-center">
-                                                <a class="btn btn-square btn-primary mx-1" href><i
-                                                    class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-square btn-primary mx-1" href>
+                                                    <i class="fab fa-facebook-f"></i>
+                                                </a>
                                                 <a class="btn btn-square btn-primary  mx-1" href><i class="fab fa-twitter"></i></a>
-                                                <a class="btn btn-square btn-primary  mx-1" href><i
-                                                    class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-square btn-primary  mx-1" href>
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </>
                         })}
-
-                        {/* <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="team-item position-relative">
-                                <Image class="img-fluid rounded-circle w-75" src={Team2Img} alt />
-                                <div class="team-text">
-                                    <h3>Full Name</h3>
-                                    <p>Designation</p>
-                                    <div class="d-flex align-items-center">
-                                        <a class="btn btn-square btn-primary mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square btn-primary  mx-1" href><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square btn-primary  mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="team-item position-relative">
-                                <Image class="img-fluid rounded-circle w-75" src={Team3Img} alt />
-                                <div class="team-text">
-                                    <h3>Full Name</h3>
-                                    <p>Designation</p>
-                                    <div class="d-flex align-items-center">
-                                        <a class="btn btn-square btn-primary mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square btn-primary  mx-1" href><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square btn-primary  mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="team-item position-relative">
-                                <Image class="img-fluid rounded-circle w-75" src={Team4Img} alt />
-                                <div class="team-text">
-                                    <h3>Full Name</h3>
-                                    <p>Designation</p>
-                                    <div class="d-flex align-items-center">
-                                        <a class="btn btn-square btn-primary mx-1" href><i
-                                            class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-square btn-primary  mx-1" href><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-square btn-primary  mx-1" href><i
-                                            class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
