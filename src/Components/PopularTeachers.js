@@ -23,78 +23,72 @@ const PopularTeachers = () => {
         {
             images: Team2Img,
             name: "Jagdish Chahan",
-            desiganation:"Principal "
+            desiganation: "Principal "
         },
         {
             images: Team5Img,
             name: "Daxa.k.Patel",
-            desiganation:"Principal Primary"
+            desiganation: "Principal Primary"
         },
         {
             images: TeamImg,
             name: "Rakesh Faljibhai",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
 
         },
         {
             images: Team3Img,
             name: "RaghuBhai",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
 
         },
 
         {
             images: Team14Img,
             name: "Minal",
-            desiganation:"Teacher" 
-
+            desiganation: "Teacher"
         },
         {
             images: Team6Img,
             name: "Bhailal",
-            desiganation:"Teacher" 
-
+            desiganation: "Teacher"
         },
-
         {
             images: Team8Img,
             name: "Jd Dhabhi",
-            desiganation:"Teacher" 
-
+            desiganation: "Managing Trustee"
         },
         {
             images: Team10Img,
             name: "Rakesh",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
 
         },
-        
         {
             images: Team11Img,
             name: "Rohit",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
 
         },
         {
             images: Team12Img,
             name: "Anuradha",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
         },
-       
         {
             images: Team15Img,
             name: "Ajit Rupabhai",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
         },
         {
             images: Team4Img,
             name: "Jigensh Prajapati",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
         },
         {
             images: Team7Img,
             name: "Kiran Ben",
-            desiganation:"Teacher" 
+            desiganation: "Teacher"
         }
     ];
 
