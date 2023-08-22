@@ -6,7 +6,7 @@ import SchoolImg from '../assets/img/school/newHero.png'
 const HeroSection = () => {
     return <>
         <div class="container-fluid p-0 mb-5 about-img wow fadeInUp" data-wow-delay="0.5s" >
-            <Image  src={SchoolImg}  alt='SchoolImg'  />
+            <Image class="img-fluid" src={SchoolImg}  alt={SchoolImg} style={{width:"100%"}} />
             <div class="owl-carousel header-carousel position-relative">
                 <div class="owl-carousel-item position-relative">
                     {/* <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
