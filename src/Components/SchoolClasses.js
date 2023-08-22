@@ -30,11 +30,11 @@ const SchoolClasses = () => {
                                             <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
                                                 style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
-                                                    <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                                    <h6 class="text-primary mb-1">Rakesh Faljibhai</h6>
                                                     <small>Teacher</small>
                                                 </div>
                                         </div>
-                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>$99</span>
+                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>Excellent</span>
                                     </div>
                                     <div class="row g-1">
                                         <div class="col-4">
@@ -71,11 +71,11 @@ const SchoolClasses = () => {
                                             <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
                                                style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
-                                                    <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                                    <h6 class="text-primary mb-1">Rakesh Faljibhai</h6>
                                                     <small>Teacher</small>
                                                 </div>
                                         </div>
-                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>$99</span>
+                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>Excellent</span>
                                     </div>
                                     <div class="row g-1">
                                         <div class="col-4">
@@ -112,11 +112,11 @@ const SchoolClasses = () => {
                                             <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
                                                style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
-                                                    <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                                    <h6 class="text-primary mb-1">RaghuBhai</h6>
                                                     <small>Teacher</small>
                                                 </div>
                                         </div>
-                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>$99</span>
+                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>Excellent</span>
                                     </div>
                                     <div class="row g-1">
                                         <div class="col-4">
@@ -153,11 +153,11 @@ const SchoolClasses = () => {
                                             <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
                                                style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
-                                                    <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                                    <h6 class="text-primary mb-1">Minal</h6>
                                                     <small>Teacher</small>
                                                 </div>
                                         </div>
-                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>$99</span>
+                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>Excellent</span>
                                     </div>
                                     <div class="row g-1">
                                         <div class="col-4">
@@ -194,11 +194,11 @@ const SchoolClasses = () => {
                                             <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
                                                   style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
-                                                    <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                                    <h6 class="text-primary mb-1">Bhailal</h6>
                                                     <small>Teacher</small>
                                                 </div>
                                         </div>
-                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>$99</span>
+                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>Excellent</span>
                                     </div>
                                     <div class="row g-1">
                                         <div class="col-4">
@@ -235,11 +235,11 @@ const SchoolClasses = () => {
                                             <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
                                                   style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
-                                                    <h6 class="text-primary mb-1">Jhon Doe</h6>
+                                                    <h6 class="text-primary mb-1">Rakesh</h6>
                                                     <small>Teacher</small>
                                                 </div>
                                         </div>
-                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>$99</span>
+                                        <span class="bg-primary text-white rounded-pill py-2 px-3" href>Excellent</span>
                                     </div>
                                     <div class="row g-1">
                                         <div class="col-4">

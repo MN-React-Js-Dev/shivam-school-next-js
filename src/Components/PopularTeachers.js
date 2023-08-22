@@ -21,6 +21,11 @@ import Image from 'next/image'
 const PopularTeachers = () => {
     var teacherArray = [
         {
+            images: Team8Img,
+            name: "Jd Dhabhi",
+            desiganation: "Managing Trustee"
+        },
+        {
             images: Team2Img,
             name: "Jagdish Chahan",
             desiganation: "Principal "
@@ -53,11 +58,7 @@ const PopularTeachers = () => {
             name: "Bhailal",
             desiganation: "Teacher"
         },
-        {
-            images: Team8Img,
-            name: "Jd Dhabhi",
-            desiganation: "Managing Trustee"
-        },
+       
         {
             images: Team10Img,
             name: "Rakesh",
