@@ -8,6 +8,12 @@ import Class6Img from '../assets/img/classes-6.jpg'
 import UserImg from '../assets/img/user.jpg'
 import Image from 'next/image'
 
+import Language_Speaking from "../assets/img/school_classes_section/team14-100x100.jpg"
+import Religion_History from "../assets/img/school_classes_section/team6-100x100.jpg"
+import General_Knowledge from "../assets/img/school_classes_section/team1-100x100.jpg"
+import Athletic_Dance from "../assets/img/school_classes_section/team4-100x100.jpg"
+
+
 const SchoolClasses = () => {
     return (
         <>
@@ -27,7 +33,7 @@ const SchoolClasses = () => {
                                     <a class="d-block text-center h3 mt-3 mb-4" href>Art & Drawing</a>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center">
-                                            <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
+                                            <Image class="rounded-circle flex-shrink-0" src={General_Knowledge} alt
                                                 style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
                                                     <h6 class="text-primary mb-1">Rakesh Faljibhai</h6>
@@ -68,7 +74,7 @@ const SchoolClasses = () => {
                                     <a class="d-block text-center h3 mt-3 mb-4" href>Color Management</a>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center">
-                                            <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
+                                            <Image class="rounded-circle flex-shrink-0" src={General_Knowledge} alt
                                                style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
                                                     <h6 class="text-primary mb-1">Rakesh Faljibhai</h6>
@@ -109,7 +115,7 @@ const SchoolClasses = () => {
                                     <a class="d-block text-center h3 mt-3 mb-4" href>Athletic & Dance</a>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center">
-                                            <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
+                                            <Image class="rounded-circle flex-shrink-0" src={Athletic_Dance} alt
                                                style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
                                                     <h6 class="text-primary mb-1">RaghuBhai</h6>
@@ -150,7 +156,7 @@ const SchoolClasses = () => {
                                     <a class="d-block text-center h3 mt-3 mb-4" href>Language & Speaking</a>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center">
-                                            <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
+                                            <Image class="rounded-circle flex-shrink-0" src={Language_Speaking} alt
                                                style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
                                                     <h6 class="text-primary mb-1">Minal</h6>
@@ -191,7 +197,7 @@ const SchoolClasses = () => {
                                     <a class="d-block text-center h3 mt-3 mb-4" href>Religion & History</a>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center">
-                                            <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
+                                            <Image class="rounded-circle flex-shrink-0" src={Religion_History} alt
                                                   style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
                                                     <h6 class="text-primary mb-1">Bhailal</h6>
@@ -232,7 +238,7 @@ const SchoolClasses = () => {
                                     <a class="d-block text-center h3 mt-3 mb-4" href>General Knowledge</a>
                                     <div class="d-flex align-items-center justify-content-between mb-4">
                                         <div class="d-flex align-items-center">
-                                            <Image class="rounded-circle flex-shrink-0" src={UserImg} alt
+                                            <Image class="rounded-circle flex-shrink-0" src={General_Knowledge} alt
                                                   style={{"width": "45px", "height": "45px"}}/>
                                                 <div class="ms-3">
                                                     <h6 class="text-primary mb-1">Rakesh</h6>
