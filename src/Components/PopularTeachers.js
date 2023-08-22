@@ -14,9 +14,12 @@ import Team12Img from '../assets/img/Teachers/team12.jpg'
 import Team13Img from '../assets/img/Teachers/team13.jpg'
 import Team14Img from '../assets/img/Teachers/team14.jpg'
 import Team15Img from '../assets/img/Teachers/team15.jpg'
-import Team16Img from '../assets/img/Teachers/team15.jpg'
-import Team17Img from '../assets/img/Teachers/team15.jpg'
-
+import Team16Img from '../assets/img/Teachers/team16.png'
+import Team17Img from '../assets/img/Teachers/team17.png'
+import Team18Img from '../assets/img/Teachers/team18.png'
+import Team19Img from '../assets/img/Teachers/team19.png'
+import Team20Img from '../assets/img/Teachers/team20.png'
+ 
 import Image from 'next/image'
 const PopularTeachers = () => {
     var teacherArray = [
@@ -89,6 +92,31 @@ const PopularTeachers = () => {
         {
             images: Team7Img,
             name: "Kiran Ben",
+            desiganation: "Teacher"
+        },
+        {
+            images: Team16Img,
+            name: "Sanjay",
+            desiganation: "English Teacher"
+        },
+        {
+            images: Team17Img,
+            name: "Gamara Bharat",
+            desiganation: "Teacher"
+        },
+        {
+            images: Team18Img,
+            name: "Parul",
+            desiganation: "Teacher"
+        },
+        {
+            images: Team19Img,
+            name: "Yogendra",
+            desiganation: "Teacher"
+        },
+        {
+            images: Team20Img,
+            name: "Bhagvat",
             desiganation: "Teacher"
         }
     ];
